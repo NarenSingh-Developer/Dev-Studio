@@ -1,11 +1,11 @@
 import React from 'react'
 import { Col, Container, FormControl, Row, Button } from 'react-bootstrap'
 
-const Contect = () => {
+const Contact = () => {
     return (
         <>
             <section className="contect mt-5 mb-5">
-                <h1 className="text-center mb-5">Contect Us</h1>
+                <h1 className="text-center mb-5">Contact Us</h1>
                 <Container>
                     <Row>
                         <Col lg="6">
@@ -25,4 +25,4 @@ const Contect = () => {
     )
 }
 
-export default Contect
+export default Contact

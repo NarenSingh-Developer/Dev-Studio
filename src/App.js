@@ -5,7 +5,7 @@ import { Button, Col, Container, Row } from "react-bootstrap"
 import Navbar from "./Navbar"
 import Services from "./Services"
 import Youtube from "./Youtube"
-import Contect from "./Contect"
+import Contact from "./Contact"
 import Footer from "./Footer"
 const App = () => {
 
@@ -30,7 +30,7 @@ const App = () => {
       </section>
       <Services />
       <Youtube />
-      <Contect />
+      <Contact />
       <Footer />
     </>
   )
