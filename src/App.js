@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import { Button, Col, Container, Row } from "react-bootstrap"
+import Navbar from "./Navbar"
+import Services from "./Services"
+import Youtube from "./Youtube"
+import Contect from "./Contect"
+import Footer from "./Footer"
+const App = () => {
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <section className="MainPage">
+        <Navbar />
+        <Container>
+          <Row className="Row m-0" style={{width : "55%",height: "100vh"}} >
+            <Col className="d-flex flex-column justify-content-center align-items-center"> 
+              <h1 className="text-white display-3 font-weight-bolder">Dev Film Studio</h1>
+              <h1 className="text-white font-weight-lighter">Best Wedding Photography</h1>
+              <Button className=" btn-light shadow-none mt-3" style={{width:"fit-content"}} >Contect Us</Button>
+            </Col>
+          </Row>
+        </Container>
+        {/* <div className="Maintext d-flex flex-column align-items-center">
+      <h1 className="text-white display-3 font-weight-bolder">Dev Film Studio</h1>
+      <h1 className="text-white font-weight-lighter">Best Wedding Photography</h1>
+      <Button className=" btn-light shadow-none mt-3">Contect Us</Button>
+      </div> */}
+      </section>
+      <Services />
+      <Youtube />
+      <Contect />
+      <Footer />
+    </>
+  )
 }
-
 export default App;
