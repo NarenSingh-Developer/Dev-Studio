@@ -38,7 +38,7 @@ const Navbar = () => {
           <li><a href="#">Home</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Youtube</a></li>
-          <li><a href="#">Contect</a></li>
+          <li><a href="#">Contact</a></li>
           <li><a href="#" onClick={() => setModalShow(true)}>E-Album</a></li>
         </ul>
       </div>

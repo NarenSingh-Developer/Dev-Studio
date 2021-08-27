@@ -18,7 +18,7 @@ const App = () => {
             <Col className="d-flex flex-column justify-content-center align-items-center"> 
               <h1 className="text-white display-3 font-weight-bolder">Dev Film Studio</h1>
               <h1 className="text-white font-weight-lighter">Best Wedding Photography</h1>
-              <Button className=" btn-light shadow-none mt-3" style={{width:"fit-content"}} >Contect Us</Button>
+              <Button className=" btn-light shadow-none mt-3" style={{width:"fit-content"}} >Contact Us</Button>
             </Col>
           </Row>
         </Container>

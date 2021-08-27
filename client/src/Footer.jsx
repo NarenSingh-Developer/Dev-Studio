@@ -17,7 +17,7 @@ const Footer = () => {
                             <h5><a href="#">Home</a></h5>
                             <h5><a href="#">Services</a></h5>
                             <h5><a href="#">Youtube</a></h5>
-                            <h5><a href="#">Contect</a></h5>
+                            <h5><a href="#">Contact</a></h5>
                             <h5><a href="#" onClick={() => setModalShow(true)}>E-Album</a></h5>
                             <MyVerticallyCenteredModal
                                 show={modalShow}
